@@ -27,9 +27,9 @@ def result():
     
 
 
-@app.route("/danger")
+@app.route("/forbidden")
 def danger_back():
-    print("a user tried to visit '/danger'.  we have redirected the user to '/'")
+    print("a user tried to visit '/forbidden'.  we have redirected the user to '/'")
     return redirect("/")
 
     
